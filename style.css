@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    margin-right: 0;
+}
+
+.main{
+    background-image: url("assets/img/header_background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+    height: 70vh;
+    position: relative;
+    
+    
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+   
+}
+
+nav img{
+    color: rgb(255, 6, 6);
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav select.btn{
+    color: black;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-red-sm{
+    color: black;
+    position: relative;
+    z-index: 10;
+
+}
+
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+    height: calc(100% - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    
+
+}
+
+.btn{
+    padding: 3px 18px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 15px 24px;
+    font-size: 20px;
+    border-radius: 6px;
+
+}
+
+.main input{
+    padding: 16px 115px 15px 104px;
+    color: white;
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: 1000;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red-sm{
+background-color: red;
+color: white;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70wd;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secImg{
+    position: relative;
+    top: 50px;
+    left: 10%;
+   
+    
+}
+
+.secImg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    bottom: 40px;
+    margin-bottom: 25px;
+}
+
+.secImg video{
+    position: absolute;
+    top: 45px;
+    right:  40px;
+    
+}
+
+section.first > div{
+    display: flex;
+    flex-direction:  column;
+    padding: 0 34px;
+}
+
+section.first > div :nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+    justify-content: center;
+    
+}
+
+section.first > div :nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.second{
+    width: 30vw;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    /* bottom: 50px; */
+    padding-right: 40vw;
+    
+}
+
+.faq h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+   
+}
+
+
+.faq-box p:hover{
+     background-color: #414141;
+    
+}
+
+.faq-box p{
+    background-color: #2d2d2d;
+    color: white;    
+    font-size: 24px;
+    padding: 20px;
+    max-width: 60vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;    
+
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+}
+
+.que{
+    margin: 1px 2vw;
+    padding: 0px 14px;
+
+
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+   
+}
+
+.footer a{
+    color: white;
+   font-size: 18px;
+   gap: 14px;
+   padding: 14px;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.copyright{
+    color: white;
+    height: 20px;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
